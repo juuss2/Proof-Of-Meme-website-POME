@@ -1,1 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>$POME | Proof of Meme</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+      border-bottom: 1px solid #24242c;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(55px, 12vw, 120px);
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #ffcc00;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #aaa;
+      font-size: 20px;
+      margin-bottom: 35px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 14px 25px;
+      margin: 5px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #ffcc00;
+      color: #000;
+    }
+
+    .secondary {
+      border: 1px solid #444;
+      color: white;
+    }
+
+    section {
+      padding: 80px 8%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      color: #aaa;
+      max-width: 750px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: #15151c;
+      border: 1px solid #292932;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid #24242c;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">$POME</div>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#community">Community</a>
+    </div>
+  </nav>
+
+
+  <section class="hero">
+
+    <h1>Proof of <span>Meme.</span></h1>
+
+    <p>
+      $POME is a community-driven meme built for Arc.
+      No complicated story. No forced narrative.
+      Just memes, culture and the people behind them.
+    </p>
+
+    <div class="buttons">
+      <a class="primary" href="#tokenomics">Explore $POME</a>
+      <a class="secondary" href="#community">Join Community</a>
+    </div>
+
+  </section>
+
+
+  <section id="about">
+
+    <h2>What is $POME?</h2>
+
+    <p>
+      $POME stands for Proof of Meme.
+      Crypto needs memes. Man needs memes. Arc needs $POME.
+      We are building a meme culture that grows alongside the chain
+      and belongs to the community.
+    </p>
+
+  </section>
+
+
+  <section id="tokenomics">
+
+    <h2>Tokenomics</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>100% Supply</h3>
+        <p>
+          The full supply goes directly into the trading pool.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>2% Trading Fee</h3>
+        <p>
+          A 2% fee applies to buys and sells through the launch model.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>30% Holder Pool</h3>
+        <p>
+          30% of the trading fee goes back to holders based on
+          their share of the supply.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Hold to Earn</h3>
+        <p>
+          No staking. No tiers. No points.
+          Hold $POME and participate in the holder pool.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="community">
+
+    <h2>Proof of Meme</h2>
+
+    <p>
+      Memes bring attention. Communities create culture.
+      $POME is here to bring both together on Arc.
+    </p>
+
+    <div class="buttons" style="margin-top:30px;">
+
+      <a class="primary"
+         href="https://x.com/proofofmeme_arc"
+         target="_blank">
+        X / Twitter
+      </a>
+
+      <a class="secondary"
+         href="https://t.me/POME_on_Arc"
+         target="_blank">
+        Telegram
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    $POME — Proof of Meme
+    <br>
+    Built for meme culture on Arc.
+  </footer>
+
+</body>
+</html>
