@@ -17,31 +17,38 @@
       color: #f5e6d3;
       min-height: 100vh;
       line-height: 1.6;
-      padding: 0;
     }
 
     .hero {
       background: linear-gradient(180deg, #1a120b 0%, #0c0a08 100%);
-      padding: 50px 20px 40px;
+      padding: 40px 20px 40px;
       text-align: center;
       border-bottom: 1px solid #3d2b1f;
     }
 
-    .logo {
-      font-size: 4.8rem;
+    .logo-img {
+      width: 160px;
+      height: auto;
+      margin-bottom: 18px;
+      border-radius: 20px;
+      box-shadow: 0 0 40px rgba(232, 184, 109, 0.35);
+    }
+
+    .logo-text {
+      font-size: 3.8rem;
       font-weight: 900;
-      letter-spacing: -3px;
+      letter-spacing: -2px;
       background: linear-gradient(90deg, #e8b86d, #c17f3a, #e8b86d);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 40px rgba(232, 184, 109, 0.35);
+      text-shadow: 0 0 30px rgba(232, 184, 109, 0.3);
       margin-bottom: 6px;
     }
 
     .tagline {
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       color: #c9a77a;
-      margin-bottom: 18px;
+      margin-bottom: 16px;
       font-weight: 500;
     }
 
@@ -54,13 +61,13 @@
       border-radius: 50px;
       font-size: 0.95rem;
       font-weight: 600;
-      margin-bottom: 28px;
+      margin-bottom: 26px;
       box-shadow: 0 0 20px rgba(232, 184, 109, 0.15);
     }
 
     .description {
       max-width: 480px;
-      margin: 0 auto 32px;
+      margin: 0 auto 28px;
       color: #d4c0a5;
       font-size: 1.05rem;
     }
@@ -70,7 +77,6 @@
       gap: 14px;
       justify-content: center;
       flex-wrap: wrap;
-      margin-bottom: 10px;
     }
 
     .btn {
@@ -90,19 +96,10 @@
       box-shadow: 0 0 15px rgba(232, 184, 109, 0.1);
     }
 
-    .btn-x:hover {
-      border-color: #e8b86d;
-      box-shadow: 0 0 25px rgba(232, 184, 109, 0.25);
-    }
-
     .btn-tg {
       background: #c17f3a;
       color: #0c0a08;
       box-shadow: 0 0 20px rgba(193, 127, 58, 0.3);
-    }
-
-    .btn-tg:hover {
-      background: #e8b86d;
     }
 
     .section {
@@ -116,7 +113,6 @@
       color: #e8b86d;
       margin-bottom: 20px;
       font-weight: 700;
-      letter-spacing: 0.5px;
     }
 
     .card {
@@ -158,10 +154,6 @@
       margin-bottom: 16px;
     }
 
-    .about-text:last-child {
-      margin-bottom: 0;
-    }
-
     .highlight {
       color: #e8b86d;
       font-weight: 600;
@@ -175,7 +167,6 @@
       text-align: center;
       color: #c9a77a;
       font-size: 0.95rem;
-      margin-top: 8px;
     }
 
     .footer {
@@ -194,11 +185,14 @@
 </head>
 <body>
 
-  <!-- HERO -->
   <div class="hero">
-    <div class="logo">$POME</div>
+    <!-- LOGO -->
+    <img src="F3F2FEE7-F102-49F4-9519-C82EE088B602.jpeg" alt="$POME Logo" class="logo-img">
+
+    <div class="logo-text">$POME</div>
     <div class="tagline">Proof of Meme</div>
     <div class="thesis">Thesis → Proof of Meme 👑</div>
+    
     <p class="description">
       Crypto needs memes.<br>
       Man needs memes.<br>
@@ -211,7 +205,6 @@
     </div>
   </div>
 
-  <!-- TOKENOMICS -->
   <div class="section">
     <h2 class="section-title">Tokenomics</h2>
     <div class="card">
@@ -261,7 +254,6 @@
     </div>
   </div>
 
-  <!-- ABOUT -->
   <div class="section">
     <h2 class="section-title">About $POME</h2>
     <div class="card">
@@ -280,7 +272,6 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
   <div class="footer">
     Built on <a href="https://www.arc.io/" target="_blank">Arc</a> • Launched via <a href="http://piper.meme/" target="_blank">Piper</a><br>
     Free forever on GitHub Pages
